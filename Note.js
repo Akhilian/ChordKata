@@ -13,6 +13,10 @@ class Note {
     return this.scale[4];
   }
 
+  get fifth() {
+    return this.scale[7];
+  }
+
 };
 
 module.exports = Note;
