@@ -29,11 +29,17 @@ For each note of the scale, we can determine related notes that will help us to 
 |  A   |  C#/Db |  E      |
 |  B   |  D#/Eb |  F#/Gb  |
 
+## Step Two - Compose major and minor chords
+
+## Step Three - Inverted chords
+
+## Step Four - Make the music easier
+
 
 Tierce => Majeur (2 tons) / Mineur (1.5 ton)
 
 Full table : 
-| Root | 2        | 3       | 4      | 3rd    | 6       | 7       | 8       | 9       | 10      | 11      | 12
+| Root | +1        | +2       | +3      | +4 (third) | +5       | +6       | +7       | +8       | +9      | +10      | +11
 |------|----------|---------|--------|--------|---------|---------|---------|---------|---------|---------|---------|
 |  C   |  C#/Db   |  D      |  D#/Eb |  E     |  F      |  F#/Gb  |  G      |  G#/Ab  |  A      |  A#/Bb  |  B
 |  D   |  D#/Eb   |  E      |  F     |  F#/Gb |  G      |  G#/Ab  |  A      |  A#/Bb  |  B      |  C      |  C#/Db
@@ -42,9 +48,3 @@ Full table :
 |  G   |  G#/Ab   |  A      |  A#/Bb |  B     |  C      |  C#/Db  |  D      |  D#/Eb  |  E      |  F      |  F#/Gb
 |  A   |  A#/Bb   |  B      |  C     |  C#/Db |  D      |  D#/Eb  |  E      |  F      |  F#/Gb  |  G      |  G#/Ab
 |  B   |  C       |  C#/Db  |  D     |  D#/Eb |  E      |  F      |  F#/Gb  |  G      |  G#/Ab  |  A      |  A#/Bb
-
-## Step Two - Compose major and minor chords
-
-## Step Three - Inverted chords
-
-## Step Four - Make the music easier
