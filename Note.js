@@ -9,6 +9,10 @@ class Note {
     this.scale = scale.splice(positionOnScale).concat(scale);
   }
   
+  get thirdMinor() {
+    return new Note(this.scale[3]);
+  }
+
   get third() {
     return new Note(this.scale[4]);
   }

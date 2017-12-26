@@ -19,7 +19,11 @@ class Chord {
   }
 
   get composed() {
-    return [this.rootNote, this.rootNote.third, this.rootNote.fifth]
+    if(this.isMajor) {
+      return [this.rootNote, this.rootNote.third, this.rootNote.fifth]  
+    } else {
+      return [this.rootNote, this.rootNote.thirdMinor, this.rootNote.fifth]
+    }
   }
 
 };

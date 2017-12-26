@@ -62,7 +62,7 @@ describe('Chord', () => {
   });
 
   describe('#composed', () => {
-    test('should return 3 notes for a major chord', () => {
+    test('should return 3 notes for a C major chord', () => {
       // given
       const C = new Chord('C');
 
@@ -73,15 +73,37 @@ describe('Chord', () => {
       expect(notes).toEqual([new Note('C'), new Note('E'), new Note('G')]);
     });
 
-    test('should return 3 notes for a major chord', () => {
+    test('should return 3 notes for a C minor chord', () => {
       // given
-      const C = new Chord('A');
+      const Cm = new Chord('Cm');
 
       // when
-      const notes = C.composed;
+      const notes = Cm.composed;
+
+      // given
+      expect(notes).toEqual([new Note('C'), new Note('D#/Eb'), new Note('G')]);
+    });
+
+    test('should return 3 notes for a A major chord', () => {
+      // given
+      const A = new Chord('A');
+
+      // when
+      const notes = A.composed;
 
       // given
       expect(notes).toEqual([new Note('A'), new Note('C#/Db'), new Note('E')]);
+    });
+
+    test('should return 3 notes for a A minor chord', () => {
+      // given
+      const Am = new Chord('Am');
+
+      // when
+      const notes = Am.composed;
+
+      // given
+      expect(notes).toEqual([new Note('A'), new Note('C'), new Note('E')]);
     });
   });
 });

@@ -61,6 +61,18 @@ describe('Note', () => {
     });
   });
 
+  describe('#thirdMinor', () => {
+    describe('when the root is C', () => {
+      test('should have a major third', () => {
+        // given
+        const note = new Note('C');
+      
+        // then
+        expect(note.thirdMinor).toEqual(new Note('D#/Eb'));
+      });
+    });
+  });
+
   describe('#fifth', () => {
     describe('when the root is C', () => {
 
