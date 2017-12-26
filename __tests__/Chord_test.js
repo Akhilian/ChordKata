@@ -70,7 +70,7 @@ describe('Chord', () => {
       const notes = C.composed;
 
       // given
-      expect(notes).toEqual(['C', 'E', 'G']);
+      expect(notes).toEqual([new Note('C'), new Note('E'), new Note('G')]);
     });
 
     test('should return 3 notes for a major chord', () => {
@@ -81,7 +81,7 @@ describe('Chord', () => {
       const notes = C.composed;
 
       // given
-      expect(notes).toEqual(['A', 'C#/Db', 'E']);
+      expect(notes).toEqual([new Note('A'), new Note('C#/Db'), new Note('E')]);
     });
   });
 });

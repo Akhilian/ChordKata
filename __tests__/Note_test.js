@@ -16,7 +16,7 @@ describe('Note', () => {
         const note = new Note('C');
       
         // then
-        expect(note.third).toEqual('E');
+        expect(note.third).toEqual(new Note('E'));
       });
     });
     
@@ -26,7 +26,7 @@ describe('Note', () => {
         const note = new Note('F');
       
         // then
-        expect(note.third).toEqual('A');
+        expect(note.third).toEqual(new Note('A'));
       });
     });
 
@@ -36,7 +36,7 @@ describe('Note', () => {
         const note = new Note('G');
       
         // then
-        expect(note.third).toEqual('B');
+        expect(note.third).toEqual(new Note('B'));
       });
     });
 
@@ -46,7 +46,7 @@ describe('Note', () => {
         const note = new Note('D');
       
         // then
-        expect(note.third).toEqual('F#/Gb');
+        expect(note.third).toEqual(new Note('F#/Gb'));
       });
     });
 
@@ -56,7 +56,7 @@ describe('Note', () => {
         const note = new Note('A');
       
         // then
-        expect(note.third).toEqual('C#/Db');
+        expect(note.third).toEqual(new Note('C#/Db'));
       });
     });
   });
@@ -69,7 +69,7 @@ describe('Note', () => {
         const note = new Note('C');
 
         // then
-        expect(note.fifth).toEqual('G');
+        expect(note.fifth).toEqual(new Note('G'));
       });
 
       test('should have A a fifth with root note is D', () => {
@@ -77,7 +77,7 @@ describe('Note', () => {
         const note = new Note('D');
 
         // then
-        expect(note.fifth).toEqual('A');
+        expect(note.fifth).toEqual(new Note('A'));
       });
 
       test('should have B a fifth with root note is E', () => {
@@ -85,7 +85,7 @@ describe('Note', () => {
         const note = new Note('E');
 
         // then
-        expect(note.fifth).toEqual('B');
+        expect(note.fifth).toEqual(new Note('B'));
       });
 
       test('should have C a fifth with root note is F', () => {
@@ -93,7 +93,7 @@ describe('Note', () => {
         const note = new Note('F');
 
         // then
-        expect(note.fifth).toEqual('C');
+        expect(note.fifth).toEqual(new Note('C'));
       });
 
       test('should have D a fifth with root note is G', () => {
@@ -101,7 +101,7 @@ describe('Note', () => {
         const note = new Note('G');
 
         // then
-        expect(note.fifth).toEqual('D');
+        expect(note.fifth).toEqual(new Note('D'));
       });
 
       test('should have E a fifth with root note is A', () => {
@@ -109,7 +109,7 @@ describe('Note', () => {
         const note = new Note('A');
 
         // then
-        expect(note.fifth).toEqual('E');
+        expect(note.fifth).toEqual(new Note('E'));
       });
 
       test('should have F#/Gb a fifth with root note is B', () => {
@@ -117,7 +117,7 @@ describe('Note', () => {
         const note = new Note('B');
 
         // then
-        expect(note.fifth).toEqual('F#/Gb');
+        expect(note.fifth).toEqual(new Note('F#/Gb'));
       });
     });
   });

@@ -19,7 +19,7 @@ class Chord {
   }
 
   get composed() {
-    return [this.rootNote.root, this.rootNote.third, this.rootNote.fifth]
+    return [this.rootNote, this.rootNote.third, this.rootNote.fifth]
   }
 
 };

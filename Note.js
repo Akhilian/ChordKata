@@ -10,11 +10,11 @@ class Note {
   }
   
   get third() {
-    return this.scale[4];
+    return new Note(this.scale[4]);
   }
 
   get fifth() {
-    return this.scale[7];
+    return new Note(this.scale[7]);
   }
 
 };
