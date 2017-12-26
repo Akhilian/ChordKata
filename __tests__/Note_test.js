@@ -61,7 +61,7 @@ describe('Note', () => {
     });
   });
 
-  describe('#quinte', () => {
+  describe('#fifth', () => {
     describe('when the root is C', () => {
 
       test('should have G a fifth with root note is C', () => {
